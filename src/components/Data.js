@@ -698,7 +698,48 @@ const data = [
             article: "https://takeuforward.org/data-structure/partition-set-into-2-subsets-with-min-absolute-sum-diff-dp-16/"
         }
     ]
-    }             
+    },{
+        id: 11,
+        topic: "Linked List I",
+        questions: [{
+            id: 1,
+            title: "Introduction to LinkedList, learn about struct, and how is node represented",
+            vedioLec: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/introduction-to-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=introduction-to-linked-list",
+            codingNinjas: "",
+            leetcode: "https://leetcode.com/problems/remove-linked-list-elements/description/",
+            article: "https://takeuforward.org/linked-list/linked-list-introduction"
+        },{
+            id: 2,
+            title: "Print Linked List elements",
+            vedioLec: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/print-linked-list-elements/1",
+            codingNinjas: "",
+            leetcode: "",
+            article: "https://takeuforward.org/linked-list/find-the-length-of-a-linked-list"
+        },{
+            id: 3,
+            title: "Find the length of the linkedlist [learn traversal]",
+            vedioLec: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/count-nodes-of-linked-list/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=count-nodes-of-linked-list",
+            codingNinjas: "",
+            leetcode: "",
+            article: "https://takeuforward.org/linked-list/find-the-length-of-a-linked-list"
+        },{
+            id: 4,
+            title: "Search an element in the LL",
+            vedioLec: "https://www.youtube.com/watch?v=Nq7ok-OyEpg",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/search-in-linked-list-1664434326/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=search-in-linked-list-1664434326",
+            codingNinjas: "https://www.naukri.com/code360/problems/search-in-a-linked-list_975381?leftPanelTabValue=PROBLEM",
+            leetcode: "",
+            article: "https://takeuforward.org/linked-list/search-an-element-in-a-linked-list"
+        }
+    ]
+    }            
 ];
 
 export default data

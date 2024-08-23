@@ -17,7 +17,7 @@ export default function Card(props) {
                     <div className="accordion m-3" id={`accordionExample${1}`}>
                     <div className="accordion-item">
                         <h2 className="accordion-header" id={`heading${eachItem.id}`} >
-                            <button {...myStyle} {...cardStyle} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${eachItem.id}`} aria-expanded="true" aria-controls={`#collapse${eachItem.id}`}>
+                            <button style={{...myStyle, ...cardStyle}} className="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target={`#collapse${eachItem.id}`} aria-expanded="true" aria-controls={`#collapse${eachItem.id}`}>
                                 {`#Day${eachItem.id}: ${eachItem.topic}`}
                             </button>
                         </h2>
