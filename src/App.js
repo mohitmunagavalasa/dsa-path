@@ -26,7 +26,7 @@ const themeArr = [
 
 function App() {
   const [mode, setMode] = useState('light')
-  const [myStyleState, setMyStyleState] = useState([{}, {}])
+  const [myStyleState, setMyStyleState] = useState([{backgroundColor: "rgb(159, 203, 242)"}, {backgroundColor: "rgb(202, 225, 245)"}])
   // const [myCardStyle, setMyCardStyle] = useState()
   let myStyle = ""
   let cardStyle = ""
