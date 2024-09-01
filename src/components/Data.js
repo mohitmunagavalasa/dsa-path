@@ -737,6 +737,33 @@ const data = [
             codingNinjas: "https://www.naukri.com/code360/problems/search-in-a-linked-list_975381?leftPanelTabValue=PROBLEM",
             leetcode: "",
             article: "https://takeuforward.org/linked-list/search-an-element-in-a-linked-list"
+        },{
+            id: 5,
+            title: "Deleting a node in LinkedList",
+            vedioLec: "https://www.youtube.com/watch?v=VaECK03Dz-g",
+            description: "",
+            gfg: "https://www.hackerrank.com/domains/data-structures?filters%5Bsubdomains%5D%5B%5D=linked-lists",
+            codingNinjas: "https://www.naukri.com/code360/problems/delete-node-in-ll_5881?leftPanelTabValue=PROBLEM",
+            leetcode: "https://leetcode.com/problems/delete-node-in-a-linked-list/description/",
+            article: "https://takeuforward.org/data-structure/delete-last-node-of-linked-list/"
+        },{
+            id: 6,
+            title: "Insertion a node in LinkedList",
+            vedioLec: "https://www.youtube.com/watch?v=VaECK03Dz-g&t=1934s",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/linked-list-insertion-1587115620/0?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=linked-list-insertion",
+            codingNinjas: "https://www.naukri.com/code360/problems/insertion-in-a-singly-linked-list_4609646?leftPanelTabValue=PROBLEM",
+            leetcode: "https://www.geeksforgeeks.org/problems/linked-list-insertion-at-beginning/0",
+            article: "https://takeuforward.org/linked-list/insert-at-the-head-of-a-linked-list"
+        },{
+            id: 7,
+            title: "Introduction to DLL",
+            vedioLec: "https://www.youtube.com/watch?v=0eKMU10uEDI",
+            description: "",
+            gfg: "https://www.geeksforgeeks.org/problems/introduction-to-doubly-linked-list/1?utm_source=youtube&utm_medium=collab_striver_ytdescription&utm_campaign=introduction-to-doubly-linked-list",
+            codingNinjas: "https://www.naukri.com/code360/problems/introduction-to-doubly-linked-list_8160413",
+            leetcode: "",
+            article: "https://takeuforward.org/linked-list/introduction-to-doubly-linked-list"
         }
     ]
     }            

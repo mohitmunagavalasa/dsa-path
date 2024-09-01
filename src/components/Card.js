@@ -3,8 +3,10 @@ import Problem from './Problem';
 
 export default function Card(props) {
     // console.log(props.myStyle)
-    const myStyle = (props.mode==="dark") ? props.myStyle : {}
-    const cardStyle = (props.mode === "dark") ? props.cardStyle : {}
+    // const myStyle = (props.mode==="dark") ? props.myStyle : {}
+    // const cardStyle = (props.mode === "dark") ? props.cardStyle : {}
+    const myStyle = props.myStyle
+    const cardStyle = props.cardStyle
     const data = props.data
     console.log(data)
     return (

@@ -48,7 +48,7 @@ export default function Random(props) {
     // uuid concept - total update 
 
 
-    const myStyle = (props.mode === "dark") ? props.myStyle : {}
+    const myStyle = props.myStyle 
     const textStyle = (props.mode === "dark") ? "text-light" : ""
 
     return (

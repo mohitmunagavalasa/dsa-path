@@ -1,0 +1,138 @@
+
+.title {
+    text-align: center;
+    /* border: 2px solid red; */
+  }
+  .digital-timer-bg-container {
+    min-height: 100vh;
+    background-image: linear-gradient(to bottom, #ffffff, #cffcf1, #defafe);
+    display: flex;
+    flex-direction: column;
+    
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .digital-timer-bg-container {
+      background-image: linear-gradient(to right, #ffffff, #cffcf1, #defafe);
+    }
+  }
+  
+  .container1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .container1 {
+      flex-direction: row;
+    }
+  }
+  
+  .timer-bg-container {
+    margin-top: 15px;
+    height: 350px;
+    width: 350px;
+    background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .timer-bg-container {
+      height: 350px;
+      width: 400px;
+    }
+  }
+  
+  .timer-container {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 16px 0px '#bfbfb';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  @media screen and (min-width: 768px) {
+    .timer-container {
+      height: 120px;
+      width: 120px;
+    }
+  }
+  
+  .time {
+    color: #00d9f5;
+  }
+  
+  .time-state {
+    color: #1e293b;
+  }
+  
+  .timer-details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .start-reset-container {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 20px;
+  }
+  
+  .start {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+  }
+  
+  button {
+    border: 0;
+    background-color: transparent;
+    cursor: pointer;
+  }
+  
+  .play-pause-btn {
+    height: 20px;
+    width: 20px;
+  }
+  
+  .start-stop-text {
+    font-family: 'Roboto';
+    background-color: transparent;
+    font-size: 20px;
+    font-weight: 800;
+    color: #0f172a;
+  }
+  
+  .time-set-text {
+    padding: 8px 16px;
+    margin: 25px 5px;
+    background-image: linear-gradient(to right, #73f4d4, #00d9f5);
+    border-radius: 8px;
+    font-size: 22px;
+    color: #0f172a;
+  }
+  
+  .increment-decrement {
+    color: #1e293b;
+    font-size: 26px;
+  }
+  
+  .set-timer-limit {
+    color: #0f172a;
+    font-size: 25px;
+    font-weight: 600;
+  }
+  
