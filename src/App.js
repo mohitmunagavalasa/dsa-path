@@ -5,6 +5,8 @@ import React, { useState } from 'react'
 import Navbar from './components/Navbar'
 import Random from './components/Random';
 import data from './components/Data';
+import faqsList from './components/FaqsArr'
+import Faqs from './components/Faqs';
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 const themeArr = [
@@ -95,6 +97,8 @@ function App() {
         <Routes>
           <Route path="/" element={<Card mode={mode} data={data} toggleMode={toggleMode} myStyle={myStyle} cardStyle={cardStyle} />} />
           <Route path="/random" element={<Random mode={mode} toggleMode={toggleMode} myStyle={myStyle} cardStyle={cardStyle} />} />
+          <Route path="/faqs" element={<Faqs faqsList={faqsList} />} />
+          {/* <Route path="/faqs" element={<h1>hello</h1>} /> */}
           {/* <Route path="/digitaltimer" element={<DigitalTimer/>} /> */}
         </Routes>
       </Router>

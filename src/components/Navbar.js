@@ -37,6 +37,9 @@ export default function Navbar(props) {
                                     <li><a className="dropdown-item" href="#">Something else comming soon</a></li>
                                 </ul>
                             </li>
+                            <li className="nav-item">
+                                <Link className="nav-link" to="/faqs">FAQs</Link>
+                            </li>
                             {/* <li className="nav-item">
                                 <a className="nav-link disabled">Disabled</a>
                             </li> */}
